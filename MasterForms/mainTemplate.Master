@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mainTemplate.master.cs" Inherits="Masrofy4.mainTemplate" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../styling/Master/mainTemplate.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="row">
+                <div class="col-sm-auto" style="width: fit-content;">
+                    <a href="../WebForms/LoginPage.aspx"><img class="logo-image" src="../icons/masrofy_logo.png" alt="Masrofy Logo" /></a>
+                </div>
+                <div class="col-sm-auto d-flex align-items-center">
+                    <h1 style="color: #ffffff">Masrofy</h1>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

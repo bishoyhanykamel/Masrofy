@@ -1,0 +1,84 @@
+﻿body {
+    background-image: linear-gradient(to right, #329837, #83f28f);
+}
+.content {
+    vertical-align: middle;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 25px;
+    
+    background-color: white;
+    padding: 50px 50px 25px 50px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.header {
+    text-align: center;
+    font-family: Georgia;
+    margin-top: -50px;
+}
+.heading-paragraph {
+    color: black;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+}
+.field {
+    margin-bottom: 20px;
+}
+
+.fieldlabel {
+    width: 100%;
+}
+
+.usrTxt {
+    width: 100%;
+}
+
+.pwdTxt {
+    width: 100%;
+}
+.fieldInput {
+
+}
+
+.btn {
+    background-color: palegreen;
+    border: 1px solid white;
+    border-radius: 40px;
+    font-family: Georgia;
+    padding: 14px 40px;
+    font-size: 14px;
+}
+.btn-container {
+    text-align: center;
+    
+}
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#pwdRef {
+    float: left;
+    padding: 2px 15px 2px 8px;
+    
+}
+
+#signupRef {
+    float: right;
+    padding: 2px 15px 2px 8px;
+}
+
+#loginRef {
+    text-align: center;
+    padding: 8px 8px 0px 8px;
+    margin-top:10px;
+}
+
+.logo-image {
+    height: 150px;
+    width: 220px;
+}

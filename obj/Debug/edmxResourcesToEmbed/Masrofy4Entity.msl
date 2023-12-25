@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Masrofy4ModelStoreContainer" CdmEntityContainer="Masrofy4Entities">
+    <FunctionImportMapping FunctionImportName="ChangeMobilenum" FunctionName="Masrofy4Model.Store.ChangeMobilenum" />
+    <FunctionImportMapping FunctionImportName="ChangeName" FunctionName="Masrofy4Model.Store.ChangeName" />
+    <FunctionImportMapping FunctionImportName="ChangePasswordByOTP" FunctionName="Masrofy4Model.Store.ChangePasswordByOTP" />
+    <FunctionImportMapping FunctionImportName="ChangePwd" FunctionName="Masrofy4Model.Store.ChangePwd" />
+    <FunctionImportMapping FunctionImportName="CheckUserExistence" FunctionName="Masrofy4Model.Store.CheckUserExistence" />
+    <FunctionImportMapping FunctionImportName="FindUsernames" FunctionName="Masrofy4Model.Store.FindUsernames" />
+    <FunctionImportMapping FunctionImportName="GetMobilenum" FunctionName="Masrofy4Model.Store.GetMobilenum" />
+    <FunctionImportMapping FunctionImportName="GetName" FunctionName="Masrofy4Model.Store.GetName" />
+    <FunctionImportMapping FunctionImportName="GetOTP" FunctionName="Masrofy4Model.Store.GetOTP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Masrofy4Model.GetOTP_Result">
+          <ScalarProperty Name="otpKey" ColumnName="otpKey" />
+          <ScalarProperty Name="otpDate" ColumnName="otpDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetPwd" FunctionName="Masrofy4Model.Store.GetPwd" />
+    <FunctionImportMapping FunctionImportName="GetUserFullName" FunctionName="Masrofy4Model.Store.GetUserFullName" />
+    <FunctionImportMapping FunctionImportName="Signup" FunctionName="Masrofy4Model.Store.Signup" />
+    <FunctionImportMapping FunctionImportName="StoreOTP" FunctionName="Masrofy4Model.Store.StoreOTP" />
+    <FunctionImportMapping FunctionImportName="UserLogin4" FunctionName="Masrofy4Model.Store.UserLogin4" />
+  </EntityContainerMapping>
+</Mapping>

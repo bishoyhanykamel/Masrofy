@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Masrofy4Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="ChangeMobilenum" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="mobilenum" Type="nvarchar" Mode="In" />
+          <Parameter Name="nid" Type="char" Mode="In" />
+        </Function>
+        <Function Name="ChangeName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fullname" Type="nvarchar" Mode="In" />
+          <Parameter Name="nid" Type="char" Mode="In" />
+        </Function>
+        <Function Name="ChangePasswordByOTP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nationalID" Type="varchar" Mode="In" />
+          <Parameter Name="new_pw" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="ChangePwd" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nid" Type="char" Mode="In" />
+          <Parameter Name="pwd" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="CheckUserExistence" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nationalID" Type="varchar" Mode="In" />
+          <Parameter Name="mobileNum" Type="varchar" Mode="In" />
+          <Parameter Name="name" Type="nvarchar" Mode="In" />
+          <Parameter Name="username" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="FindUsernames" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="uname" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="GetMobilenum" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nid" Type="char" Mode="In" />
+        </Function>
+        <Function Name="GetName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nid" Type="char" Mode="In" />
+        </Function>
+        <Function Name="GetOTP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nationalID" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="GetPwd" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nid" Type="char" Mode="In" />
+        </Function>
+        <Function Name="GetUserFullName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nid" Type="char" Mode="In" />
+        </Function>
+        <Function Name="Signup" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nid" Type="varchar" Mode="In" />
+          <Parameter Name="mobileno" Type="varchar" Mode="In" />
+          <Parameter Name="fullname" Type="nvarchar" Mode="In" />
+          <Parameter Name="username" Type="varchar" Mode="In" />
+          <Parameter Name="pwd" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="StoreOTP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nationalID" Type="varchar" Mode="In" />
+          <Parameter Name="oKey" Type="nvarchar" Mode="In" />
+          <Parameter Name="odate" Type="datetime2" Mode="In" />
+        </Function>
+        <Function Name="UserLogin4" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="usr" Type="varchar" Mode="In" />
+          <Parameter Name="pwd" Type="varchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="Masrofy4ModelStoreContainer" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Masrofy4Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="Masrofy4Entities" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="ChangeMobilenum">
+            <Parameter Name="mobilenum" Mode="In" Type="String" />
+            <Parameter Name="nid" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="ChangeName">
+            <Parameter Name="fullname" Mode="In" Type="String" />
+            <Parameter Name="nid" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="ChangePasswordByOTP">
+            <Parameter Name="nationalID" Mode="In" Type="String" />
+            <Parameter Name="new_pw" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="ChangePwd">
+            <Parameter Name="nid" Mode="In" Type="String" />
+            <Parameter Name="pwd" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="CheckUserExistence" ReturnType="Collection(String)">
+            <Parameter Name="nationalID" Mode="In" Type="String" />
+            <Parameter Name="mobileNum" Mode="In" Type="String" />
+            <Parameter Name="name" Mode="In" Type="String" />
+            <Parameter Name="username" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="FindUsernames" ReturnType="Collection(Int32)">
+            <Parameter Name="uname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GetMobilenum" ReturnType="Collection(String)">
+            <Parameter Name="nid" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GetName" ReturnType="Collection(String)">
+            <Parameter Name="nid" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GetOTP" ReturnType="Collection(Masrofy4Model.GetOTP_Result)">
+            <Parameter Name="nationalID" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GetPwd" ReturnType="Collection(String)">
+            <Parameter Name="nid" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GetUserFullName" ReturnType="Collection(String)">
+            <Parameter Name="nid" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Signup">
+            <Parameter Name="nid" Mode="In" Type="String" />
+            <Parameter Name="mobileno" Mode="In" Type="String" />
+            <Parameter Name="fullname" Mode="In" Type="String" />
+            <Parameter Name="username" Mode="In" Type="String" />
+            <Parameter Name="pwd" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="StoreOTP">
+            <Parameter Name="nationalID" Mode="In" Type="String" />
+            <Parameter Name="oKey" Mode="In" Type="String" />
+            <Parameter Name="odate" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="UserLogin4" ReturnType="Collection(String)">
+            <Parameter Name="usr" Mode="In" Type="String" />
+            <Parameter Name="pwd" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="GetOTP_Result">
+          <Property Type="String" Name="otpKey" Nullable="true" MaxLength="50" />
+          <Property Type="DateTime" Name="otpDate" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Masrofy4ModelStoreContainer" CdmEntityContainer="Masrofy4Entities" >
+          <FunctionImportMapping FunctionImportName="ChangeMobilenum" FunctionName="Masrofy4Model.Store.ChangeMobilenum" />
+          <FunctionImportMapping FunctionImportName="ChangeName" FunctionName="Masrofy4Model.Store.ChangeName" />
+          <FunctionImportMapping FunctionImportName="ChangePasswordByOTP" FunctionName="Masrofy4Model.Store.ChangePasswordByOTP" />
+          <FunctionImportMapping FunctionImportName="ChangePwd" FunctionName="Masrofy4Model.Store.ChangePwd" />
+          <FunctionImportMapping FunctionImportName="CheckUserExistence" FunctionName="Masrofy4Model.Store.CheckUserExistence" />
+          <FunctionImportMapping FunctionImportName="FindUsernames" FunctionName="Masrofy4Model.Store.FindUsernames" />
+          <FunctionImportMapping FunctionImportName="GetMobilenum" FunctionName="Masrofy4Model.Store.GetMobilenum" />
+          <FunctionImportMapping FunctionImportName="GetName" FunctionName="Masrofy4Model.Store.GetName" />
+          <FunctionImportMapping FunctionImportName="GetOTP" FunctionName="Masrofy4Model.Store.GetOTP">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Masrofy4Model.GetOTP_Result">
+                <ScalarProperty Name="otpKey" ColumnName="otpKey" />
+                <ScalarProperty Name="otpDate" ColumnName="otpDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GetPwd" FunctionName="Masrofy4Model.Store.GetPwd" />
+          <FunctionImportMapping FunctionImportName="GetUserFullName" FunctionName="Masrofy4Model.Store.GetUserFullName" />
+          <FunctionImportMapping FunctionImportName="Signup" FunctionName="Masrofy4Model.Store.Signup" />
+          <FunctionImportMapping FunctionImportName="StoreOTP" FunctionName="Masrofy4Model.Store.StoreOTP" />
+          <FunctionImportMapping FunctionImportName="UserLogin4" FunctionName="Masrofy4Model.Store.UserLogin4" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

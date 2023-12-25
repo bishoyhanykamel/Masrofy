@@ -1,0 +1,78 @@
+﻿footer {
+    background-image: linear-gradient(to right, #233329, #63df71);
+}
+
+footer222222 {
+    background-image: linear-gradient(to right, #237629, #63cc71);
+}
+
+nav {
+    background-image: linear-gradient(to right, #237629, #63cc71);
+}
+
+.logo-image {
+    height: 100px;
+    width: 150px;
+    padding-right: 0px;
+}
+
+.rounded-top-1 {
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+
+.textBox {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #e9fce9;
+}
+
+.button {
+    background-color: palegreen;
+    border: 1px solid black;
+    border-radius: 40px;
+    font-family: Georgia;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+.button-1 {
+    background-color: palegreen;
+    border: 1px solid black;
+    border-radius: 40px;
+    font-family: Georgia;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.pwd {
+    display: none;
+}
+
+
+td {
+    width: 80px;
+}
+
+.nav{
+    text-decoration: none;
+    padding: 8px 10px 0px 10px;
+    vertical-align: middle;
+    margin-right: 30px;
+    color: white;
+}
+
+.nav:hover{
+    color: black;
+}
+
+.logoName{
+    color: white;
+    padding-top: 35px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}

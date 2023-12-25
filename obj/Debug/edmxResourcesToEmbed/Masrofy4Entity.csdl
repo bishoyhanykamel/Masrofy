@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Masrofy4Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Masrofy4Entities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="ChangeMobilenum">
+      <Parameter Name="mobilenum" Mode="In" Type="String" />
+      <Parameter Name="nid" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ChangeName">
+      <Parameter Name="fullname" Mode="In" Type="String" />
+      <Parameter Name="nid" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ChangePasswordByOTP">
+      <Parameter Name="nationalID" Mode="In" Type="String" />
+      <Parameter Name="new_pw" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ChangePwd">
+      <Parameter Name="nid" Mode="In" Type="String" />
+      <Parameter Name="pwd" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CheckUserExistence" ReturnType="Collection(String)">
+      <Parameter Name="nationalID" Mode="In" Type="String" />
+      <Parameter Name="mobileNum" Mode="In" Type="String" />
+      <Parameter Name="name" Mode="In" Type="String" />
+      <Parameter Name="username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="FindUsernames" ReturnType="Collection(Int32)">
+      <Parameter Name="uname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetMobilenum" ReturnType="Collection(String)">
+      <Parameter Name="nid" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetName" ReturnType="Collection(String)">
+      <Parameter Name="nid" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetOTP" ReturnType="Collection(Masrofy4Model.GetOTP_Result)">
+      <Parameter Name="nationalID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetPwd" ReturnType="Collection(String)">
+      <Parameter Name="nid" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetUserFullName" ReturnType="Collection(String)">
+      <Parameter Name="nid" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Signup">
+      <Parameter Name="nid" Mode="In" Type="String" />
+      <Parameter Name="mobileno" Mode="In" Type="String" />
+      <Parameter Name="fullname" Mode="In" Type="String" />
+      <Parameter Name="username" Mode="In" Type="String" />
+      <Parameter Name="pwd" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="StoreOTP">
+      <Parameter Name="nationalID" Mode="In" Type="String" />
+      <Parameter Name="oKey" Mode="In" Type="String" />
+      <Parameter Name="odate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="UserLogin4" ReturnType="Collection(String)">
+      <Parameter Name="usr" Mode="In" Type="String" />
+      <Parameter Name="pwd" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetOTP_Result">
+    <Property Type="String" Name="otpKey" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="otpDate" Nullable="true" />
+  </ComplexType>
+</Schema>

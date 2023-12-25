@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterForms/Home.Master" AutoEventWireup="true" CodeBehind="BankAcntMngr.master.cs" Inherits="Masrofy4.MasterForms.BankAcntMngr" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <div class="container mt-5">
+        <div class="mt-3 mb-2">
+            <h3 class="text-capitalize fst-italic">My Accounts</h3>
+        </div>
+        <%--<h3 class="text-capitalize fst-italic mt-2 mb-5">My Accounts</h3>--%>
+        <div style="margin-bottom: 0px;">
+            <asp:GridView CssClass="table" ID="parentBankAcc_GridView" runat="server" AllowPaging="true" PageSize="5" AutoGenerateColumns="false">
+
+                <Columns>
+                    <asp:BoundField HeaderText="Account Number" DataField="accNum" />
+                    <asp:BoundField HeaderText="Balance (EGP)" DataField="balance" />
+                    <asp:BoundField HeaderText="Account Type" DataField="accType" />
+                </Columns>
+                <PagerSettings Mode="NextPreviousFirstLast" Position="Bottom" />
+
+                <FooterStyle BackColor="#FFFFCC" ForeColor="#330099"></FooterStyle>
+
+                <HeaderStyle BackColor="#63cc71" Font-Bold="True" ForeColor="#FFFFFF"></HeaderStyle>
+
+                <PagerStyle HorizontalAlign="Center" BackColor="#FFFFCC" ForeColor="#330099"></PagerStyle>
+
+                <RowStyle BackColor="White" ForeColor="black"></RowStyle>
+
+                <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#663399"></SelectedRowStyle>
+
+                <SortedAscendingCellStyle BackColor="#FEFCEB"></SortedAscendingCellStyle>
+
+                <SortedAscendingHeaderStyle BackColor="#AF0101"></SortedAscendingHeaderStyle>
+
+                <SortedDescendingCellStyle BackColor="#F6F0C0"></SortedDescendingCellStyle>
+
+                <SortedDescendingHeaderStyle BackColor="#7E0000"></SortedDescendingHeaderStyle>
+            </asp:GridView>
+        </div>
+    </div>
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

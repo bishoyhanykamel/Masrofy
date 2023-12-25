@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Masrofy4.styling.Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Masrofy</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../styling/Master/Homepage.css" rel="stylesheet" />
+    
+</head>
+<body style="background-color: #e9fce9;">
+
+    <form id="form1" runat="server">
+    <nav class="navbar navbar-expand-sm navbar-light bg-success round-bottom-1">
+        <div class="container">
+            <div class="logo">
+                <a href="../WebForms/Homepage.aspx"><img class="navbar-brand logo-image" src="../icons/masrofy_logo.png" alt="Masrofy Logo"/></a>
+                <h3 class="logoName">Masrofy</h3>
+            </div>
+        <div class="navbar" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mx-5">
+                <li class="nav-item"><a class="nav" href="../WebForms/Account.aspx">My Profile</a></li>
+                <li class="nav-item"><a class="nav" href="../WebForms/BankAccountManager.aspx">My Accounts</a></li>
+                <li class="nav-item"><a class="nav" href="../WebForms/Child.aspx">My Children</a></li>
+                <li class="nav-item">
+                    <asp:Button ID="logoutBtn" runat="server" Text="Logout" CssClass="btn btn-outline-light" OnClick="logoutBtn_Click" />
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    </nav>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    
+    <footer class="bg-dark bg-dark bg-opacity-25 text-capitalize text-center text-white rounded-top-1">
+        <div class="row">
+            <div class="col-sm text-center" >
+                <img class="logo-image" src="../icons/masrofy_logo.png" alt="Masrofy Logo" style="margin-top: 8%;"/>
+            </div>
+            <div class="col-sm text-center">
+                <div class="mt-4">
+                    <h6>Contact Details</h6>
+                    <ul class="list-unstyled">
+                        <li class="">Phone number: 01111111111</li>
+                        <!-- edited here -->
+                        <li class="text-lowercase">Email: mariamfawzi@gmail.com</li>
+                        <!-- edited here^ -->
+                        <li class="">Address: Maadi</li>
+                        <div class="container mt-3"><li>&copy; 2022 Copyrights - Masrofy </li></div>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm text-center" style="display: flex; flex-direction:column; justify-content: center;">
+                <ul class="list-unstyled list-inline" style="vertical-align: middle;" >
+                    <li class="list-inline-item "><a href="#"><img src="../icons/facebook.png" alt="fb page" height="32px" width="32px"/></a></li>
+                    <li class="list-inline-item "><a href="#"><img src="../icons/twitter.png"alt="twitter page" height="32px" width="32px"/></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="../icons/instagram.png" alt="insta page" height="32px" width="32px"/></a></li>
+                    <li class="list-inline-item"><a href="mailto:mariamfawzi@gmail.com"><img src="../icons/email.png" alt="email page" height="32px" width="32px"/></a></li>
+                </ul>
+            </div>
+        </div>
+
+       
+    </footer>
+    
+    </form>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

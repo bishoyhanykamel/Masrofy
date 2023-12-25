@@ -1,0 +1,134 @@
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\Masrofy4.dll.config
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\Masrofy4.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\Masrofy4.pdb
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\csc.exe
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\csc.exe.config
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\csc.rsp
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\csi.exe
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\csi.exe.config
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\csi.rsp
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.AppContext.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Collections.Immutable.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Console.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Globalization.Calendars.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.IO.Compression.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.IO.FileSystem.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Net.Http.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Net.Sockets.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Reflection.Metadata.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.ValueTuple.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Xml.XPath.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\vbc.exe
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\vbc.exe.config
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\vbc.rsp
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\VBCSCompiler.exe
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\roslyn\VBCSCompiler.exe.config
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\EntityFramework.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\EntityFramework.SqlServer.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\EntityFramework.xml
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\EntityFramework.SqlServer.xml
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\obj\Debug\Masrofy4.csproj.AssemblyReference.cache
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\obj\Debug\Masrofy4.csproj.CoreCompileInputs.cache
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\obj\Debug\Masrofy4.csproj.CopyComplete
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\obj\Debug\Masrofy4.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\obj\Debug\Masrofy4.pdb
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\Newtonsoft.Json.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\System.Net.Http.Formatting.dll
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\Newtonsoft.Json.xml
+E:\Workspaces\c_sharp\LearningFolder\v1\Masrofy4\Masrofy4\bin\System.Net.Http.Formatting.xml
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\Masrofy4.dll.config
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\Masrofy4.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\Masrofy4.pdb
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\csc.exe
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\csc.exe.config
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\csc.rsp
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\csi.exe
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\csi.exe.config
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\csi.rsp
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.AppContext.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Collections.Immutable.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Console.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Globalization.Calendars.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.IO.Compression.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.IO.FileSystem.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Net.Http.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Net.Sockets.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Reflection.Metadata.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.ValueTuple.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Xml.XPath.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\vbc.exe
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\vbc.exe.config
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\vbc.rsp
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\VBCSCompiler.exe
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\roslyn\VBCSCompiler.exe.config
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\EntityFramework.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\EntityFramework.SqlServer.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\Newtonsoft.Json.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\System.Net.Http.Formatting.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\EntityFramework.xml
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\EntityFramework.SqlServer.xml
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\Newtonsoft.Json.xml
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\System.Net.Http.Formatting.xml
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\obj\Debug\Masrofy4.csproj.AssemblyReference.cache
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\obj\Debug\Masrofy4.csproj.CoreCompileInputs.cache
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\obj\Debug\Masrofy4.csproj.CopyComplete
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\obj\Debug\Masrofy4.dll
+E:\Masrofy\NEWEST\Masrofy4 - v16\Masrofy4\Masrofy4\obj\Debug\Masrofy4.pdb
